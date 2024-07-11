@@ -1,0 +1,136 @@
+.color-sec {
+  color: white;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+.splash{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('splash.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#credit {
+  text-align: center;
+}
+.credit_title{
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.navbar-brand, h2 {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.turnc:hover {
+  background: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar {
+  margin-bottom: 5%;
+}
+.container-fluid {
+  padding: 3% 15%;
+
+}
+.laptop {
+  width:120%;
+  margin-bottom: 5%;
+}
+@media (max-width: 992px) {
+  .laptop {
+    width:100%;
+  }
+}
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 100px;
+}
+#title {
+  color: white;
+  padding-bottom: 0;
+  text-align: left;
+}
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 18px;
+}
+.fas {
+  color: black;
+}
+.intro {
+  text-align: left;
+}
+.intro-p, .favor {
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-align: left;
+}
+section {
+  margin-bottom: 3%;
+}
+hr{
+  opacity: 0;
+}
+.credit{
+  color: black;
+  text-align: center;
+}
+.credit:hover {
+  color: green;
+}
+.hope {
+  padding: 10% 0;
+}
+.imgs {
+    text-align: center;
+}
+
+.card {
+  transition: 0.1s;
+  text-align: left;
+  color: white;
+  margin: 8% 7%;
+  border-radius: 15px;
+  /* box-shadow: 5px 5px 10px #ccc; */
+}
+.card:hover {
+  margin-top: 3%;
+}
+
+.skill-head {
+  margin-bottom: 5%;
+}
+
+.skill1 {
+  background-color: #FAD961;
+  background-image: linear-gradient(19deg, #FAD961 0%, #F76B1C 100%);
+}
+.skill2 {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+.skill3 {
+  background-color: #FBDA61;
+  background-image: linear-gradient(19deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+
+
+.footer {
+  margin: 1% 0;
+}
+
+/* .fa-gradient:hover {
+	background: -webkit-linear-gradient(top, #12FFF7  51%, #B3FFAB  100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} */
